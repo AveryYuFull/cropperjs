@@ -1,17 +1,19 @@
 {
   "presets": [
     [
-      "@babel/preset-env",
+      "env",
       {
         "modules": false
       }
     ]
   ],
-  "env": {
-    "test": {
-      "plugins": [
-        "istanbul"
-      ]
-    }
-  }
+  // "plugins": [
+  //   "external-helpers"
+  // ],
+  // "env": {
+  //   "test": {
+  //     "presets": ["es2015"],
+  //     "plugins": ["istanbul"]
+  //   }
+  // }
 }
